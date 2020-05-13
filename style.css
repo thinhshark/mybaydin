@@ -11,6 +11,13 @@
 	color: #fff;
 }
 
+a.category {
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 10px;
+    background: #080808a1;
+}
+
 #calendar h7 {
     font-size: 12px;
 }
@@ -185,4 +192,43 @@ section .star.star8
 .service img
 {
 	width: 100px;
+}
+
+.smallinfo
+{
+	font-size: 13px;
+	line-height: normal;
+}
+
+.slogan
+{
+	color: orange;
+	line-height: normal;
+}
+
+
+@media screen and (max-width: 375px) {	
+	.smallinfo
+	{
+		font-size: 10px;
+		line-height: normal;
+	}
+	
+	.animal
+	{
+		width: 20px;
+		height: 20px;
+		background-size: 60px;
+	}
+	
+	.animal_23_1
+	{
+		background-position: -45px -20px;
+	}
+
+	.slogan
+	{
+		font-size: 10px;
+	}
+
 }
